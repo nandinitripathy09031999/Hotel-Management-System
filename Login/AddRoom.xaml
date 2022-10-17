@@ -1,0 +1,15 @@
+﻿<Window x:Class="Login.AddRoom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="AddRoom" Height="450" Width="800">
+    <Grid Background="LightBlue">
+        <Label Content="Enter Room type " HorizontalAlignment="Left" Height="57" Margin="92,102,0,0" VerticalAlignment="Top" Width="252" FontWeight="Bold" FontSize="30"/>
+        <Button Content="Add" Click="Button_Click" HorizontalAlignment="Left" Height="78" Margin="271,270,0,0" VerticalAlignment="Top" Width="193" FontWeight="Bold" FontSize="48"/>
+        <TextBox x:Name="rt" HorizontalAlignment="Left" Height="55" Margin="422,139,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="84"/>
+        <Label Content="(A for AC and N for Non-AC)" HorizontalAlignment="Left" Height="46" Margin="92,171,0,0" VerticalAlignment="Top" Width="255" FontWeight="Bold" FontStyle="Italic" FontSize="18"/>
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="Login.NewReservation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="NewReservation" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.625,0.794" Background="LightBlue">
+        <Button Content=" Reserve
+                " Click="Button_Click" HorizontalAlignment="Left" Height="53" Margin="315,342,0,0" VerticalAlignment="Top" Width="156" FontSize="36" FontWeight="Bold"/>
+        <Label x:Name="chin" Content="Enter your ID" HorizontalAlignment="Left" Height="58" Margin="104,28,0,0" VerticalAlignment="Top" Width="162" FontWeight="Bold" FontSize="24"/>
+        <Label Content="Enter duration(no. of days)" HorizontalAlignment="Left" Height="59" Margin="398,28,0,0" VerticalAlignment="Top" Width="323" FontSize="24" FontWeight="Bold"/>
+        <Label Content="Enter Room number " HorizontalAlignment="Left" Height="57" Margin="243,180,0,0" VerticalAlignment="Top" Width="300" FontWeight="Bold" FontSize="30"/>
+        <TextBox x:Name="rt" HorizontalAlignment="Left" Height="55" Margin="346,242,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="94" RenderTransformOrigin="3.118,0.431" TextChanged="rt_TextChanged"/>
+        <TextBox x:Name="cus_id" HorizontalAlignment="Left" Height="48" Margin="104,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="156" RenderTransformOrigin="0.514,0.069"/>
+        <TextBox x:Name="dur" HorizontalAlignment="Left" Height="54" Margin="473,80,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="144" RenderTransformOrigin="0.658,0.5"/>
+    </Grid>
+</Window>
